@@ -13,7 +13,7 @@
 
 ## Conclusions
 - Without a dropout rate and given set of sample images, the initial model was overfitting
-- With a dropout rate of 0.3, the overfitting was reduced but the accuracy on the train (58%) and test data (56%) was still low
+- With a dropout rate of 0.2, the overfitting was reduced but the accuracy on the train (58%) and test data (56%) was still low
 - Using an Augmentor to reduce the class imbalance (class sample size = 500) improved the accuracy of the model slightly by  (train (63%) and test (57%) )
 - For the final model, epochs = 30 was used as the sample data size increased post usage of Augmentor
 
